@@ -1,0 +1,113 @@
+/*Estilos Div Login */
+.login {
+    text-align: left;
+    width: 60%;
+    margin-left: -12%;
+    margin-top: 100px;
+}
+
+.login h4 {
+    color: #592050;
+    width: 60%;
+    margin: 0 auto 10px auto;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.login button{
+    background-color: #592050;
+    color: #B8A9D9;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 150px;
+    height: 60px;
+}
+
+.login button:hover {
+    background-color: #4a2f71;
+}
+
+img#mulher_icon {
+    width: 400px;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 70px;
+}
+
+/*Estilo Formulário/login*/
+.form-group {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group input {
+    display: flex;
+    width: 550px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+    border: 1px solid #592050;
+    border-radius: 100px;
+    cursor: text;
+}
+
+/*Estilo Header */
+
+.header h1{
+    color: #592050;
+    margin-bottom: 5px;
+}
+
+.header h3{
+    color: #592050;
+}
+
+.img-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin-right: 100%;
+    margin-bottom: 10px;
+}
+
+/*Estilo Footer */
+.img-logo-footer {
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: -300px;
+}
+
+/*Estilo Geral da Página*/
+body {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe a altura correta da tela */
+}
+
+.caixa {
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.3);
+    min-width: 150vh;
+    min-height: 90vh;
+    max-width: 200vh;
+
+    background-image: url('imgs/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.caixa-main{
+    padding: 80px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.3);
+    min-width: 180vh;
+    min-height: 75vh;
+    max-width: 200vh;
+}
