@@ -1,0 +1,58 @@
+/*Estilo geral da página*/
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif, Arial, Helvetica ;
+    background: #73306E;
+    background: radial-gradient(circle, rgba(115, 48, 110, 1) 0%, rgba(165, 153, 191, 1) 100%);
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+    height: 89vh;
+    width: 80vw;
+
+    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.3);
+    border: 0.2px groove;
+    border-color: #592050;
+    border-radius: 20px;
+
+    background-image: url(../imgs/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    display: flex;
+    height: 12%;
+    border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    flex-grow: 1;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.item-1{
+  width: 10px;
+}
+
+.container-exibe{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
