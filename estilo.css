@@ -1,99 +1,30 @@
-/*Estilos Div Login */
-.login {
-    text-align: left;
-    width: 60%;
-    margin-left: -12%;
-    margin-top: 100px;
-}
-
-.login h4 {
-    color: #592050;
-    width: 60%;
-    margin: 0 auto 10px auto;
-    text-align: left;
-    padding-left: 25px;
-}
-
-.login button{
-    background-color: #592050;
-    color: #B8A9D9;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 100px;
-    width: 150px;
-    height: 60px;
-}
-
-.login button:hover {
-    background-color: #4a2f71;
-}
-
-img#mulher_icon {
-    width: 400px;
-    height: auto;
-}
-
-/*Estilo Formulário/login*/
-.form-group {
-    width: 60%;
-    margin: auto 100px auto 110px;
-    text-align: left;
-}
-
-.form-group input {
-    display: flex;
-    width: 550px;
-    height: 60px;
-    margin-bottom: 20px;
-    padding: 6px 20px;
-    border: 1px solid #592050;
-    border-radius: 100px;
-    cursor: text;
-}
-
-/*Estilo Header */
-
-.header h3{
-    color: #592050;
-    margin-bottom: 5px;
-}
-
-.header h4{
-    color: #B8A9D9;
-}
-
-.img-logo {
-    width: 80px;
-    height: auto;
-    display: block;
-}
-
-/*Estilo Footer */
-.img-logo-footer {
-    width: 250px;
-    height: auto;
-}
-
-/*Estilo Geral da Página*/
+/*Estilo geral da página*/
 body {
-    overflow: hidden; /* Bloqueia tanto scroll vertical quanto horizontal */
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    min-height: 100vh; /* Garante que o body ocupe a altura correta da tela */
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;*/
+    margin:0;
+    font-family: sans-serif, Arial, Helvetica ;
+    background-color: #fff;
 }
 
 .caixa {
-    padding: 80px;
+    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.3);
+
+    padding: 0 20px;
     border: 0.2px groove;
     border-color: #592050;
     border-radius: 20px;
-    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.3);
-    min-width: 150vh;
-    min-height: 90vh;
-    max-width: 150vh;
-    max-height: 150vh;
+    
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+
+    min-height: 80vh;
+    min-width: 60vw;
 
     background-image: url('imgs/background.png');
     background-size: cover;
@@ -101,25 +32,102 @@ body {
     background-repeat: no-repeat;
 }
 
-.overlay {
-    position: absolute;
-    top: 80px;
-    left: 0;
+/*Estilo do header*/
+
+.cabecalho{
+    position: sticky;
+    text-align: center;
     width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.8); /* Cor branca com opacidade de 80% */
-    border-radius: 20px;
-    z-index: -1; /* Coloca o overlay atrás do conteúdo */
 }
 
-.caixa-content {
-    position: absolute;
-    top: 250px;
-    z-index: 1; /* Garante que o conteúdo fique acima do overlay */
+
+/*Estilo Formulário/login*/
+.login{
+    padding: 20px 50px;
 }
 
-.footer {
-    width: 100%;
-    position: absolute;
-    bottom: 30px;
+.label{
+    color:#592050;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
 }
+
+.campo button{
+    background-color: #592050;
+    color: #B8A9D9;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+
+    width: 150px;
+    height: 45px;
+    justify-self: end;
+}
+
+.login button:hover {
+    background-color: #4a2f71;
+}
+
+.botao-area {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    padding-left: 40px;
+}
+
+/*Tratando imagens*/
+.img-logo {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.imagem-centro{
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;
+    position: absolute;
+    padding-left: 600px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.campo {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+}
+
+.campo input {
+    display: flex;
+    width: 500px;
+    height: 45px;
+    margin-bottom: 30px;
+    border: 1px solid #592050;
+    border-radius: 100px;
+    padding: 6px 20px;
+    text-align: center;
+
+    font-size: 15px;
+    cursor: text;
+}
+
+.mulher_icon{
+    width: 350px;
+    padding-left: 130px;
+}
+
+footer{
+    padding-top: 95px;
+}
+
+.img-logo-footer{
+    width: 220px;
+}
+
