@@ -6,17 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caixa Centralizada</title>
     <link rel="stylesheet" href="CSS/indexStyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="caixa">
-        <div class="cabecalho">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="#"> Bem Vindo Usuário </a>
+                    </li>
+                    <li class="nav-link services">
+                        <a href="#"><img src="icons/form.png" class="icons"> Cadastro <span class="material-icons dropdown-icon"> arrow_drop_down </span></a>
+                        <ul class="drop-down">
+                            <li><a href="#">Vítima</a></li>
+                            <li><a href="#">Ocorrência</a></li>
+                            <li><a href="#">Agressor</a></li>
+                            <li><a href="#">Medida Protetiva</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-link services">
+                        <a href="#"><img src="icons/view.png" class="icons"> Exibir <span class="material-icons dropdown-icon"> arrow_drop_down </span></a>
+                        <ul class="drop-down">
+                            <li><a href="#">Vítimas</a></li>
+                            <li><a href="#">Ocorrências</a></li>
+                            <li><a href="#">Agressores</a></li>
+                            <li><a href="#">Medidas Protetivas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#"><img src="icons/graph.png" class="icons"> Relatórios </a>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>
+        <!--<div class="cabecalho">
             <div class="item item-1">Bem vindo Usuário!</div>
             <div class="item item-2"><img src="icons/form.png" class="icons">Cadastro</div>
             <div class="item item-3"><img src="icons/view.png" class="icons">Exibir</div>
             <div class="item item-4"><img src="icons/graph.png" class="icons"> Relatórios</div>
-        </div>
+        </div>-->
 
         <div class="container-exibe">
             <img src="imgs/logo_patrulha_maria_da_penha_grande.png" class="marca-dagua">
