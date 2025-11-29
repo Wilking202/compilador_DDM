@@ -30,7 +30,6 @@ body {
 /*Nav-Bar*/
 .container {
     display: flex;
-    height: 100vh;
     background-color: #fff;
 
     border-radius: 20px 20px 0px 0px;
