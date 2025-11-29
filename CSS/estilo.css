@@ -16,6 +16,8 @@ body {
     box-shadow: 0 18px 20px rgba(0, 0, 0, 0.3);
     height: 80vh;
     width: 60vw;
+    overflow: hidden;
+    
 
     margin-top: 90px;
 
